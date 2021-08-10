@@ -252,7 +252,7 @@ text_input()
 
 A good example of this design is the stringr package: if you don't remember exactly which function you need, you can type `str_` and jog your memory.
 
-Where possible, avoid overriding existing functions and variables.
+Where possible, avoid overwriting existing functions and variables.
 It's impossible to do in general because so many good names are already taken by other packages, but avoiding the most common names from base R will avoid confusion.
 
 ```{r, eval = FALSE}
